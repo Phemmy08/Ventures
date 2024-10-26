@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Fugaz+One&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Fugaz+One&family=Gugi&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Atma", system-ui;
+    /* font-family: "Gugi", sans-serif;; */
+    background-image: linear-gradient(to left, rgb(46, 7, 46), rgb(165, 184, 233));
+    font-size: 1.2rem;
+}
+
+section {
+    transition: transform 0.2s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+.links {
+    padding: 20px;
+    margin: auto;
+    background-color: wheat;
+    border-radius: 0 0px 20px 20px;
+    box-shadow: 0 4px 10px black;
+}
+
+.links ul {
+    text-align: right;
+}
+
+.links ul li {
+    display: inline;
+    margin-inline: 1rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    cursor: cell; 
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: "Gugi", sans-serif;
+    text-align: center;
+    color: wheat;
+    margin: 20px;
+}
+
+h2 {
+    font-family: "Gugi", sans-serif;
+    font-size: 2rem;
+    color: red;
+}
+
+.service {
+    background-color: wheat;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.reg {
+    background-color: wheat;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px black;
+}
+
+.btn {
+    font-size: 1.2rem;
+    font-family: "Atma", system-ui;
+    background-image: linear-gradient(to right, rgb(70, 5, 70), rgb(153, 47, 252));
+    border: none;
+    border-radius: 7px;
+    color: wheat;
+    width: 25%;
+}
+
+.btn:hover {
+    cursor: cell;
+    color: wheat;
+    background-image: linear-gradient(to left, rgb(70, 5, 70), rgb(153, 47, 252));
+}
+.cinfo {
+    background-color: wheat;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px black;
+}
+
+footer {
+    text-align: center;
+    color: wheat;
+    font-weight: bold;
+}
